@@ -38,16 +38,15 @@ body {
   position: relative;
   width: 100%;
   display: flex;
-  /* max-height: 240px; */
   background: var(--soft-violet);
-  filter: saturate(2.2) brightness(0.6);
 }
 
 .card picture img {
   width: 100%;
   object-fit: contain;
-  /* max-height: 240px; */
-  opacity: 0.6;
+  background: var(--soft-violet);
+  mix-blend-mode: multiply;
+  opacity: 0.75;
 }
 
 .content {
